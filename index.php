@@ -1,8 +1,8 @@
 <?php
-$token = generateRandomString(25);
-echo $token;
 
-function generateRandomString($length = 10) {
+echo generateRandomString(5);
+
+function generateRandomString($length) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
